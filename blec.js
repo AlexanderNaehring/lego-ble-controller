@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
     elements = document.getElementsByTagName("input");
     for (let i = 0; i < elements.length; i++) {
         elements[i].addEventListener("touchend", function (e) {
-            //this.value = "0";
+            this.value = "0";
         });
         elements[i].addEventListener("mouseup", function (e) {
-            //this.value = "0";
+            this.value = "0";
         });
     }
 
